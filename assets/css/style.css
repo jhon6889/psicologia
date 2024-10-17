@@ -215,6 +215,8 @@ text-align: justify;
     padding: 20px;
     border-radius: 10px;
     width: 800px;
+    height: auto;
+
     text-align: justify;
 }
 
@@ -232,8 +234,23 @@ text-align: justify;
     height: 300px; /* Ocupa toda la altura de la pantalla */
 }
 
+@media (max-width: 611px) {
+    .ser  {
+        height: 521px;
+        justify-content: center;
+     background-color: #e08e7a;
+    }
+
+}
 
 
+@media (max-width: 611px) {
+    .center-div {
+    
+        margin-top: 321px;
+    }
+
+}
 
 
 
