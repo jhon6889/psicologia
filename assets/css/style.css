@@ -1,0 +1,314 @@
+/* General Styles */
+body {
+  
+    margin: 0;
+    padding: 0;
+}
+
+
+/* contacto */
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 71px;
+     margin-right: 71px ;
+}
+
+.fle{ 
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+    padding: 1rem;
+}
+
+.hero {
+    background: url('images/hero-background.jpg') center center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero .btn {
+    margin-top: 20px;
+}
+
+#services .col-md-4 {
+    margin-bottom: 30px;
+}
+
+
+.logo {
+    width: 110px; /* Ajusta el tamaño del logo según lo necesites */
+    transition: transform 0.3s, filter 0.3s; /* Transición suave */
+}
+
+
+.logo:hover {
+    transform: scale(1.1); /* Pequeño zoom */
+    filter: brightness(0.8); /* Aplica un filtro de brillo */
+}
+
+
+/* SLIDER */
+
+.carousel-inner img {
+    height:400px; /* Mantener la proporción de la imagen */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+        padding: 2rem;
+    }
+
+    #services .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* BOTON SLIDER*/
+
+/* Estilo del botón "Contactar" */
+.btn-contactar {
+  
+    bottom: 20px;
+    right: 20px;
+    background-color: #00aaff; /* Azul claro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Para que el slider tenga posición relativa */
+.carousel-item {
+    position: relative;
+}
+.btn-contactar:hover {
+    background-color: #28a745; /* Verde al pasar el mouse */
+}
+
+
+
+
+
+
+/* EQUIPO DE PSICOLOGOS */
+
+.links {
+    padding: 50px 0;
+    background-color: rgb(45, 58, 99);
+}
+
+.artistas {
+    color: aliceblue;
+    text-shadow: 0 0 10px rgb(250, 245, 245);
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.links .imagenes-container {
+    display: flex; 
+    flex-wrap: wrap; /* Permite que las columnas se ajusten */
+   
+    justify-content: center; /* Centra las columnas */
+}
+
+.links .columna {
+    flex: 1 1 20%; /* Cada columna ocupará aproximadamente el 20% del ancho del contenedor */
+    max-width: 20%; /* Limita el ancho máximo de las columnas */
+}
+
+.links img {
+    height: 220px; /* Ajustamos la altura de las imágenes */
+    width: 220px; /* Ajustamos el ancho de las imágenes */
+    object-fit: cover; /* Mantiene la proporción y cubre el contenedor */
+    border: 0.5px rgb(247, 253, 247) solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(253, 249, 249, 0.9);
+    transition: transform 0.5s;
+}
+
+.links img:hover {
+    transform: scale(1.1);
+}
+
+.detalles {
+    cursor: zoom-in;
+    color: #fcfafa;
+    text-align: center;
+
+}
+
+details h2 {
+    
+    align-content: center;
+    text-align: center;
+    color: rgba(255, 253, 253, 0.986);
+    font-size: 24px;
+    margin: 10px 0;
+    text-decoration: aqua;
+    max-width: 51px;
+}
+
+details .lorem {
+    justify-content: center;
+    text-align: center;
+text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 251, 251);
+}
+/* Media Queries para diseño responsivo */
+@media (max-width: 768px) {
+    .details-container {
+        width: 100%; /* Ancho del contenedor al 100% en pantallas pequeñas */
+    }
+
+    .links img {
+        width: 100%; /* Las imágenes ocupan el 100% del ancho del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+
+    .row {
+        flex-direction: column; /* Cambia la dirección del flex a columna en pantallas pequeñas */
+        align-items: center; /* Alinea los elementos en el centro */
+    }
+}
+
+@media (min-width: 768px) {
+    .links img {
+        width: 500px; /* Ancho fijo para imágenes en pantallas medianas y grandes */
+        height: 500px; /* Altura fija para imágenes en pantallas medianas y grandes */
+    }
+}
+
+
+
+/* CONOCE NUESTROS SERVICIOS */
+
+
+
+   /* Estilo del contenedor .ser */
+   .ser {
+    background-color: rgb(57, 155, 201);
+    color: #0f0f0f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    text-align: justify;
+}
+
+.ser h1 {
+    color: rgb(6, 6, 110);
+    text-align: center;
+}
+
+/* Centrado del contenedor */
+.container-center {
+    display: flex;
+    justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+    height: 300px; /* Ocupa toda la altura de la pantalla */
+}
+
+
+
+
+
+
+
+
+/* PREGUNTAS*/
+
+/* Contenedor principal */
+.faq-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Contenedor de la FAQ */
+.faq-container {
+    text-align: center;
+}
+
+/* Estilo del título */
+.faq-container h2 {
+    font-size: 24px;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las respuestas */
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: #f0f4f8;
+    border-top: 1px solid #00796b;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilo para las preguntas */
+.faq-question {
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-size: 16px;
+    color: #00796b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}
+
+.faq-question:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para cada ítem de FAQ */
+.faq-item {
+    margin-bottom: 15px;
+}
+
+/* Estilo para el icono */
+.icon {
+    transition: transform 0.3s ease;
+}
+
+/* Rotación del icono cuando se activa */
+.faq-question.active .icon {
+    transform: rotate(180deg);
+}

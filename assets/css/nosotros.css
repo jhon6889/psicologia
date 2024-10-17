@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+/* MISION VISION */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fa;
+}
+
+.about-section {
+    background-color: #e3f2fd; /* Azul claro */
+}
+
+h2 {
+    color: #1a237e;
+    font-size: 36px;
+}
+
+.card-title {
+    color: #00796b; /* Verde oscuro */
+    font-weight: bold;
+}
+
+.card-text, .list-unstyled li {
+    color: #424242;
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+/* Efecto hover */
+.hover-effect {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* POR QUE ELEGIRNOS */
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 3px solid #1be74e;
+    padding-left: 15px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
